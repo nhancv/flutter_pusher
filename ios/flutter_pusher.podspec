@@ -4,7 +4,7 @@
 require 'yaml'
 pubspec = YAML.load_file(File.join('..', 'pubspec.yaml'))
 libraryVersion = pubspec['version'].gsub('+', '-')
-pusherLibraryVersion = '7.2.0'
+pusherLibraryVersion = '~> 8.0.0'
 
 Pod::Spec.new do |s|
   s.name             = 'flutter_pusher'
@@ -22,7 +22,7 @@ A new flutter plugin project.
   s.dependency 'Flutter'
   s.dependency 'PusherSwift', pusherLibraryVersion
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
 s.prepare_command = <<-CMD
     echo // Generated file, do not edit > Classes/UserAgent.h
