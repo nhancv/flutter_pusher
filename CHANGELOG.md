@@ -3,6 +3,7 @@
 - Upgrade `PusherSwift` to `8.0.0`
 - Min iOS version `11.0`
 - Remove `CryptoSwift`
+- Flutter sdk `1.22.6`
 
 ## 1.0.2
 
