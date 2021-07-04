@@ -1,6 +1,6 @@
 name: flutter_pusher
 description: A Flutter plugin to listen to events sent through pusher. Wraps the native Java and Swift libraries.
-version: 1.0.2
+version: 1.0.3
 author: Indoor Solutions <ninjas@indoor.solutions>
 homepage: https://github.com/ninjasolutions/flutter_pusher
 
@@ -8,13 +8,13 @@ environment:
   sdk: ">=2.2.2 <3.0.0"
 
 dependencies:
-  json_annotation: ^3.0.0
+  json_annotation: ^4.0.0
   flutter:
     sdk: flutter
 
 dev_dependencies:
   build_runner: ^1.5.2
-  json_serializable: ^3.2.0
+  json_serializable: ^4.0.0
   flutter_test:
     sdk: flutter
 

@@ -1,3 +1,9 @@
+## 1.0.3
+
+- Upgrade `PusherSwift` to `8.0.0`
+- Min iOS version `11.0`
+- Remove `CryptoSwift`
+
 ## 1.0.2
 
 - Fixes Android build error with missing trigger method. By @athornz
